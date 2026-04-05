@@ -1,0 +1,20 @@
+ollama:
+  url: "http://127.0.0.1:11434/api/generate"
+  model: "gemma4:e4b"
+  timeout: 60
+  max_retries: 3
+
+obsidian:
+  vault_path: "/caminho/para/seu/vault/Obsidian"
+  subpastas:
+    notas: "Notas"
+    tarefas: "Tarefas"
+    ideias: "Ideias"
+
+servidor:
+  porta: 5000
+  host: "127.0.0.1"
+
+seguranca:
+  token_secreto: "mude-este-token"
+  rate_limit_por_minuto: 30
